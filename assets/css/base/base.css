@@ -1,0 +1,151 @@
+@import url("./reset.css");
+@import url("../header.css");
+@import url("../introduction.css");
+@import url("../hiring.css");
+@import url("../references.css");
+@import url("../footer.css");
+
+:root {
+    --main-font-family: "Inter", sans-serif;
+    --white: #ffffff;
+    --gray-200: #eaecf0;
+    --gray-300: #d0d5dd;
+    --gray-500: #667085;
+    --gray-900: #101828;
+    --red: #8e2424;
+    --light-red: #b34747;
+    --red-transparent: rgba(142, 36, 36, 0.05);
+    --red-transparent-secondary: rgba(196, 25, 25, 0.03);
+}
+
+body {
+    background: var(--white);
+    color: var(--gray-900);
+    font-family: var(--main-font-family);
+}
+
+main p {
+    line-height: 1.2rem;
+}
+
+.container {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.title {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+
+    font-size: 2.5rem;
+}
+
+.title--secondary {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: var(--red);
+}
+
+p {
+    color: var(--gray-500);
+}
+
+.paragraph {
+    font-size: 1.25rem;
+    line-height: 1.6rem;
+}
+
+.button {
+    background-color: var(--red);
+    padding: 0.8rem 1.5rem;
+    color: var(--white);
+    border-radius: 0.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+
+    transition: 100ms;
+}
+
+.button:hover {
+    transform: translateY(-5px);
+    background-color: var(--light-red);
+}
+
+button {
+    border: none;
+}
+
+input,
+button {
+    font-family: inherit;
+}
+
+@media screen and (min-width: 320px) {
+    .container {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 375px) {
+}
+
+@media screen and (min-width: 425px) {
+    .container {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .inside-container {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .title--secondary {
+        font-size: 2.3rem;
+        line-height: 3rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .inside-container {
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+    .inside-container {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+}

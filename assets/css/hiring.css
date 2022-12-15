@@ -1,0 +1,64 @@
+.hiring {
+    text-align: center;
+}
+
+.hiring__subtitle {
+    background-color: var(--red-transparent);
+    display: inline-block;
+    border-radius: 1rem;
+    padding: .4rem .8rem;
+}
+
+.hiring__image {
+    width: 1216px;
+    height: 400px;
+
+    margin: 2rem auto 0 auto;
+
+    background: center / contain no-repeat url("../img/hiring.jpg");
+    border-radius: 1rem;
+
+    max-width: 90vw;
+    max-height: 30vw;
+}
+
+.hiring__job-vacancies {
+    text-align: left;
+}
+
+.hiring__job-vacancies-title {
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin: 4rem 0;
+}
+
+.hiring__job-vacancies-item {
+    border: 1px solid var(--gray-200);
+    border-radius: 1rem;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    transition: 100ms;
+}
+
+.hiring__job-vacancies-item:hover {
+    border-color: var(--red);
+}
+
+.hiring__job-vacancies-item-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.hiring__job-vacancies-time {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+@media screen and (min-width: 425px) {
+    .hiring__job-vacancies-time {
+        margin-right: 2rem;
+        display: inline;
+        margin-bottom: 0;
+    }
+}
