@@ -16,4 +16,4 @@ This website was built for a challenge to complete [Alura's HTML and CSS trainin
 
 ## To view
 
-:octocat: Go to github pages to access the page: <a href="https://andre-possan.github.io/optimustech/" target="_blank">andre-possan.github.io/optimustech/</a>
+:octocat: Go to github pages to access the page: <a href="https://andrepozzan.github.io/optimustech/" target="_blank">andrepozzan.github.io/optimustech/</a>
